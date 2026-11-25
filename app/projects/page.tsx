@@ -2,27 +2,27 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Projects | John Patrick",
+  title: "Projects | Kris Paul Sobrio",
 };
 
 const projects = [
   {
     id: 1,
-    name: "AquaRoute",
+    name: "FoodExpress",
     description:
-      "A water container delivery and refill management system.",
+      "An online food ordering and delivery management system.",
   },
   {
     id: 2,
-    name: "StyleHub",
+    name: "ClothingStore",
     description:
       "An online clothing store for browsing and purchasing products.",
   },
   {
     id: 3,
-    name: "JobTrack",
-    description:
-      "An application for tracking job applications and interviews.",
+     name: "BookSystem",
+     description:
+       "A library management system for borrowing, returning, and managing books.",
   },
 ];
 
